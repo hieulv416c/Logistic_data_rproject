@@ -65,6 +65,7 @@ Số lượng nhân sự: Hệ thống ghi nhận 1,231 tài xế phục vụ ch
 Phân hóa hiệu suất: Biểu đồ Bar Chart cho thấy tài xế MURUGAN đang dẫn đầu với 20 chuyến hàng thành công. Việc sử dụng màu xanh lá (Green) cho những người đứng đầu giúp nhà quản lý nhận diện nhanh nhóm "Star Drivers".<br>
 - Biểu đồ cột kết hợp đường (Performance by Provider): <br>
 Nhà cung cấp Consent có sản lượng vận chuyển cao nhất vượt trội -> Là đối tác tin cậy.<br>
+💭 **Đề xuất:** Ưu tiên hơn với những đối tác lớn như Comstar, Ashok Leyland về thủ tục, phương tiện, thời gian.
 - Tree map chart:<br>
 Sự chậm trễ đang ảnh hưởng trực tiếp đến các "ông lớn" trong ngành công nghiệp ô tô. Nếu không cải thiện tỉ lệ Ontime 30.4% (từ trang 1), doanh nghiệp có rủi ro cao bị mất các hợp đồng chiến lược này.<br>
 💭 **Đề xuất:**  Có thể ưu tiên những đơn vận chuyển đối với các khách hàng lớn này, bằng cách ưu tiên những xe có tải trọng và hiệu suất tốt, tập trung nhiều nhân lực cho các đơn hàng này, giảm trừ các thủ tục quy trình nếu có thể nhằm giảm thời gian vận chuyển và lưu kho.<br>
@@ -89,6 +90,7 @@ Các bang như Haryana và Assam đang được đánh dấu xanh lá cây đậ
 - Tuyển và đào tạo thêm tài xế để tăng cường sử dụng hết các phương tiện đang có và mở rộng mạng lưới vận tải <br>
 - Có thể ưu tiên những đơn vận chuyển đối với các khách hàng lớn này, bằng cách ưu tiên những xe có tải trọng và hiệu suất tốt, tập trung nhiều nhân lực cho các đơn hàng này, giảm trừ các thủ tục quy trình nếu có thể nhằm giảm thời gian vận chuyển và lưu kho<br>
 - Có thể xây dựng tự động hóa hoặc ưu tiên xuất kho và vận chuyển cho những mặt hàng linh kiện ô tô<br>
+- Ưu tiên hơn với những đối tác lớn như Comstar, Ashok Leyland.
 - Có thể giảm tải 1 số địa điểm phân phối và trung chuyển tại khu vực nội địa và thuê Outsourcing cho 1 số điuạ điểm này. (Có thể sẽ tiết kiệm được chi phí, dữ liệu cần thu thập thêm thông tin về chi phí vận hành, hàng hóa,... để đưa ra quyết định tối ưu), tuy nhiên trong tương lai nếu giao thông phát triển, có thể cân nhắc đưa các tuyến đường về khu vực này để rút ngắn quãng đường)<br>
 
 
