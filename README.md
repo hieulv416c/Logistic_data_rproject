@@ -1,8 +1,6 @@
 
 ## Project Name: [Logistics Operations & Delivery Performance Analytics]
 
-## Thumbnail: Chụp một tấm ảnh đẹp nhất, bao quát nhất của Dashboard và chèn vào đây.
-
 ## Tech Stack: Power BI | DAX | Data Modeling | Excel/SQL
 
 ## Tóm tắt project 
