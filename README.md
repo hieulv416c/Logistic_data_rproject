@@ -1,4 +1,4 @@
-<img width="852" height="343" alt="image" src="https://github.com/user-attachments/assets/9cb79a72-3044-452b-9d81-10a2a61641b2" />﻿# Transportation & Logistics Project
+
 ## Project Name: [Logistics Operations & Delivery Performance Analytics]
 
 ## Thumbnail: Chụp một tấm ảnh đẹp nhất, bao quát nhất của Dashboard và chèn vào đây.
