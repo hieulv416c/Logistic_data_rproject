@@ -4,16 +4,17 @@
 ## Tech Stack: Power BI | DAX | Data Modeling | Excel/SQL
 
 ## Tóm tắt project 
-** Dự án phân tích transport & logistics của một doanh nghiệp vận chuyển tại Ấn Độ, từ xử lý làm sạch dữ liệu cho tới làm báo cáo dashboard. Dữ liệu được thu thập từ hơn 2000 phương tiện vận chuyển và hơn 1200 tài xế trong vòng hơn 1 năm (từ tháng 9/2019 đến 11/2020). Các trường dữ liệu phục vụ cho việc phân tích bao gồm: Thời gian, địa điểm của các chuyến vận chuyển; thông tin về phường tiên, tài xế; tọa độ, thời điểm các vị trí mà các chuyến hàng đi qua; bên cạnh đó là các loại hàng hóa và khách hàng. Từ đó đưa ra được insight và các quyết định hỗ trợ doanh nghiệp trong vận tải và vận chuyển. **
+Dự án phân tích transport & logistics của một doanh nghiệp vận chuyển tại Ấn Độ, từ xử lý làm sạch dữ liệu cho tới làm báo cáo dashboard. Dữ liệu được thu thập từ hơn 2000 phương tiện vận chuyển và hơn 1200 tài xế trong vòng hơn 1 năm (từ tháng 9/2019 đến 11/2020). Các trường dữ liệu phục vụ cho việc phân tích bao gồm: Thời gian, địa điểm của các chuyến vận chuyển; thông tin về phường tiên, tài xế; tọa độ, thời điểm các vị trí mà các chuyến hàng đi qua; bên cạnh đó là các loại hàng hóa và khách hàng. Từ đó đưa ra được insight và các quyết định hỗ trợ doanh nghiệp trong vận tải và vận chuyển. 
 
 ## Project Process:
 Business Problem Statement -> Data Cleaning & Transformation -> Data Modeling -> DAX Calculation -> Data Visualization
 
 ### Business Problem Statement:
 <img width="852" height="343" alt="image" src="https://github.com/user-attachments/assets/fc9d599c-f139-4683-850a-844c7bf47ade" />
+
 Factors_affecting_transportation_fishbone_diagram
 
-❓Business Questions: 
+❓Business Questions: <br>
 Theo dõi số lượng đơn hàng? Số lượng xe? Thời gian trễ hàng trung bình? Thời gian, quãng đưỡng trung bình cho đơn hàng? Thời gian dispatch trung bình là bao nhiêu?<br>
 Tỉ lệ giao hàng đúng giờ (On-time Performance) hiện tại là bao nhiêu? Xu hướng này tăng hay giảm qua các Quý/Tháng?<br>
 Bang nào (State) có sản lượng vận chuyển cao nhất? Bang nào là "điểm đen" về độ trễ cần được can thiệp ngay lập tức?<br>
