@@ -37,7 +37,7 @@ Các bảng Dimension:<br>
 - Dim_Location: Chứa thông tin địa lý như Thành phố, Bang, Kinh độ/Vĩ độ để trực quan hóa trên Bản đồ.<br>
 - Dim_Vehicle_Driver: Quản lý thông tin tài xế, loại phương tiện và mã đăng ký xe.<br>
 - Dim_Partners_Materials: Chứa thông tin về khách hàng, nhà cung cấp GPS và các loại hàng hóa vận chuyển.<br>
-- 
+  
 ### DAX Calculation <br>
 3 nhóm chính để tối ưu hóa khả năng phân tích và trải nghiệm người dùng<br>
 <img width="429" height="370" alt="image" src="https://github.com/user-attachments/assets/45868095-657a-4253-b67c-08cf64bd9cea" />
