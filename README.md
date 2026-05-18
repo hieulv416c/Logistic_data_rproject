@@ -93,6 +93,47 @@ Các bang như Haryana và Assam đang được đánh dấu xanh lá cây đậ
 - Ưu tiên hơn với những đối tác lớn như Comstar, Ashok Leyland.
 - Có thể giảm tải 1 số địa điểm phân phối và trung chuyển tại khu vực nội địa và thuê Outsourcing cho 1 số điuạ điểm này. (Có thể sẽ tiết kiệm được chi phí, dữ liệu cần thu thập thêm thông tin về chi phí vận hành, hàng hóa,... để đưa ra quyết định tối ưu), tuy nhiên trong tương lai nếu giao thông phát triển, có thể cân nhắc đưa các tuyến đường về khu vực này để rút ngắn quãng đường)<br>
 
+## Ontime Predict
+### 1. Feature Engineering <br>
+Time Features: Từ các cột datetime, dự án tạo ra:
+booking_hour
+booking_dayofweek
+booking_month
+planned_eta_hour
+planned_eta_dayofweek
+trip_start_hour
+ping_hour
+5.2 Location Features
+Dự án extract:
+origin_city
+origin_state
+destination_city
+destination_state
+Sau đó tạo thêm:
+same_city
+same_state
+
+Shipment Type
+Được encode thành binary với Regular =0 và Market = 1 
+Sau đó loại bỏ các cột không cần thiết.
+### 2. Train/Test Split
+Dataset được chia:
+80% train
+20% test
+### 3. Machine Learning
+Mô hình sử dụng: RandomForestClassifier
+### 4. Đánh giá mô hình
+Dùng các chỉ số chính: precision, recall, f1-score
+<img width="425" height="167" alt="image" src="https://github.com/user-attachments/assets/c6c0ae5e-732d-45c2-92ab-48c3fb5e07d3" />
+Kết quả mô hình cho thấy hiệu suất dự đoán khá tốt với độ chính xác đạt khoảng 90% trên tập test. Đặc biệt, mô hình có khả năng nhận diện các shipment giao trễ rất hiệu quả với recall đạt 96%. Điều này cho thấy mô hình có tiềm năng ứng dụng thực tế trong việc theo dõi và tối ưu hoạt động logistics.
+### 5. Tracking shipment bị dự đoán trễ
+Sau khi predict, hệ thống lọc ra: Predicted_Ontime == 0 để xác định:
+- shipment có nguy cơ giao trễ
+- booking cần được theo dõi đặc biệt
+Kết quả cuối cùng bao gồm:
+- Booking ID
+- Prediction Probability
+- trạng thái dự đoán
 
 
 
