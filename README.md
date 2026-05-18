@@ -125,6 +125,7 @@ Mô hình sử dụng: RandomForestClassifier
 ### 4. Đánh giá mô hình
 Dùng các chỉ số chính: precision, recall, f1-score
 <img width="425" height="167" alt="image" src="https://github.com/user-attachments/assets/c6c0ae5e-732d-45c2-92ab-48c3fb5e07d3" />
+
 Kết quả mô hình cho thấy hiệu suất dự đoán khá tốt với độ chính xác đạt khoảng 90% trên tập test. Đặc biệt, mô hình có khả năng nhận diện các shipment giao trễ rất hiệu quả với recall đạt 96%. Điều này cho thấy mô hình có tiềm năng ứng dụng thực tế trong việc theo dõi và tối ưu hoạt động logistics.
 ### 5. Tracking shipment bị dự đoán trễ
 Sau khi predict, hệ thống lọc ra: Predicted_Ontime == 0 để xác định:
