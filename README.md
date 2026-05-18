@@ -7,7 +7,7 @@
 Dự án phân tích transport & logistics của một doanh nghiệp vận chuyển tại Ấn Độ, từ xử lý làm sạch dữ liệu cho tới làm báo cáo dashboard. Dữ liệu được thu thập từ hơn 2000 phương tiện vận chuyển và hơn 1200 tài xế trong vòng hơn 1 năm (từ tháng 9/2019 đến 11/2020). Các trường dữ liệu phục vụ cho việc phân tích bao gồm: Thời gian, địa điểm của các chuyến vận chuyển; thông tin về phường tiên, tài xế; tọa độ, thời điểm các vị trí mà các chuyến hàng đi qua; bên cạnh đó là các loại hàng hóa và khách hàng. Từ đó đưa ra được insight và các quyết định hỗ trợ doanh nghiệp trong vận tải và vận chuyển. 
 
 ## Project Process:
-Business Problem Statement -> Data Cleaning & Transformation -> Data Modeling -> DAX Calculation -> Data Visualization
+Business Problem Statement -> Data Cleaning & Transformation -> Data Modeling -> DAX Calculation -> Data Visualization -> Ontime Predeiction
 
 ### Business Problem Statement:
 <img width="852" height="343" alt="image" src="https://github.com/user-attachments/assets/fc9d599c-f139-4683-850a-844c7bf47ade" />
@@ -123,8 +123,8 @@ Dataset được chia:
 ### 3. Machine Learning
 Mô hình sử dụng: RandomForestClassifier
 ### 4. Đánh giá mô hình
-Dùng các chỉ số chính: precision, recall, f1-score
-<img width="425" height="167" alt="image" src="https://github.com/user-attachments/assets/c6c0ae5e-732d-45c2-92ab-48c3fb5e07d3" />
+Dùng các chỉ số chính: precision, recall, f1-score <br> 
+<img width="425" height="167" alt="image" src="https://github.com/user-attachments/assets/c6c0ae5e-732d-45c2-92ab-48c3fb5e07d3" /> <br>
 
 Kết quả mô hình cho thấy hiệu suất dự đoán khá tốt với độ chính xác đạt khoảng 90% trên tập test. Đặc biệt, mô hình có khả năng nhận diện các shipment giao trễ rất hiệu quả với recall đạt 96%. Điều này cho thấy mô hình có tiềm năng ứng dụng thực tế trong việc theo dõi và tối ưu hoạt động logistics.
 ### 5. Tracking shipment bị dự đoán trễ
